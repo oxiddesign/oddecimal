@@ -24,7 +24,7 @@ class oddecimal_utilsview extends oddecimal_utilsview_parent
 
     public function getSmarty($blReload = false)
     {
-        $smarty = parent::getSmarty(true);
+        $smarty = parent::getSmarty($blReload);
         $smarty->unregister_function('oxprice');
         $smarty->register_function('oxprice', array($this, 'odsetdecimal'));
         return $smarty;
@@ -56,6 +56,7 @@ class oddecimal_utilsview extends oddecimal_utilsview_parent
                 $sThousandSeparator = isset($oCurrency->thousand) ? $oCurrency->thousand : $sThousandSeparator;
                 $sCurrencySign = isset($oCurrency->sign) ? $oCurrency->sign : $sCurrencySign;
                 $sSide = isset($oCurrency->side) ? $oCurrency->side : $sSide;
+                // OXID-Design, Rafig
                 //$iDecimals = isset($oCurrency->decimal) ? (int) $oCurrency->decimal : $iDecimals;
             }
 
