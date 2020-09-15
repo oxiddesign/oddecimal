@@ -13,10 +13,10 @@
 $sMetadataVersion = '1.1';
 $aModule = array(
     'id'          => 'oddecimal',
-    'title'       => 'Preis mit 4 Nachkommastellen',
+    'title'       => 'Preise mit 4 oder mehr Nachkommastellen',
     'description' => array(
-        'de' => 'Preis mit 4 Nachkommastellen',
-        'en' => 'Price with 4 decimal places',
+        'de' => 'Preise mit 4 oder mehr Nachkommastellen',
+        'en' => 'Price with 4 or more decimal places',
     ),
     'thumbnail'   => 'out/img/logo.png',
     'version'     => '1.0.0',
