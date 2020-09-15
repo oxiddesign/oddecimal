@@ -56,8 +56,10 @@ class oddecimal_utilsview extends oddecimal_utilsview_parent
                 $sThousandSeparator = isset($oCurrency->thousand) ? $oCurrency->thousand : $sThousandSeparator;
                 $sCurrencySign = isset($oCurrency->sign) ? $oCurrency->sign : $sCurrencySign;
                 $sSide = isset($oCurrency->side) ? $oCurrency->side : $sSide;
-                // OXID-Design, Rafig
+
+                // OXID-Design, Rafig 15.09.2020
                 //$iDecimals = isset($oCurrency->decimal) ? (int) $oCurrency->decimal : $iDecimals;
+
             }
 
             if (is_numeric($sPrice)) {
