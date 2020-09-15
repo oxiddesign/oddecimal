@@ -13,4 +13,4 @@
 <h2>Older Oxid Versions</h2>
 <p>Please select Branch and download Module</p>
 
-<strong>After the installation of theme and module, please delete all files and folders from the /tmp directory of the shop except for .htaccess.</strong>
+<strong>After the installation, please delete all files and folders from the /tmp directory of the shop except for .htaccess.</strong>
