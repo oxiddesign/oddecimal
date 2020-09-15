@@ -1,5 +1,5 @@
 # oddecimal
-<h1>A small module which sends prices with 4 or more decimal places to external service providers such as ERP.</h1>
+<h1>A small module which sends prices with 4 or more decimals to external service providers such as ERP.</h1>
 
 <p>If you enter the currency in the OXID eShop backend with 4 or more decimals (example: EUR@ 1.00@ ,@ .@ €@ 4), this module will display the prices with 2 decimals in the shop frontend.</p>
 
