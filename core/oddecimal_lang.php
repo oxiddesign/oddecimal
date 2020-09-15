@@ -36,6 +36,8 @@ class oddecimal_lang extends oddecimal_lang_parent
         }
         $sValue = \OxidEsales\Eshop\Core\Registry::getUtils()->fRound($dValue, $oActCur);
 
+
+        // OXID-Design, Rafig
         $oActCur->decimal = 2;
 
         return number_format((double) $sValue, $oActCur->decimal, $oActCur->dec, $oActCur->thousand);
