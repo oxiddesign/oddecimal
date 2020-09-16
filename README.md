@@ -7,7 +7,6 @@
 
 
 <h2>Installation Oxid 6</h2>
-<p><code>composer config repositories.oxiddesign composer https://packages.oxid-design.com</code></p>
 <p><code>composer require oxiddesign/oddecimal</code></p>
 
 <h2>Older Oxid Versions</h2>
